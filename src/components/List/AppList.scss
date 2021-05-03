@@ -1,0 +1,13 @@
+.AppList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  &-left {
+    display: flex;
+  }
+
+  &-right {
+    display: flex;
+  }
+}

@@ -1,0 +1,56 @@
+.SearchList {
+  width: 400px;
+
+  &-input {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      border: 1px solid #3f51b5;
+      outline: none;
+      border-radius: 5px;
+      margin: 0;
+      padding: 9.5px 10px;
+      box-sizing: content-box;
+      margin-bottom: 5px;
+      &::placeholder {
+        color: #3f51b5;
+      }
+    }
+
+    &-button {
+      width: 100% !important;
+    }
+  }
+
+  &-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+
+  &-table {
+    margin-top: 10px;
+    transform: translateY(0) !important;
+    transition: all .8s !important;
+    border: 1px solid #3f51b5;
+    border-radius: 5px;
+
+    &-cityName {
+      width: 75%;
+
+      &-button {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+.tablePassive {
+  transform: translateY(-370%) !important;
+  transition: all .8s !important;
+}
